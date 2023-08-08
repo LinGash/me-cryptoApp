@@ -1,0 +1,72 @@
+/* .my-navbar-height {
+	height: norm;
+} */
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+a {
+	text-decoration: none;
+}
+@media screen and (min-width: 765px) {
+	.my-navbar-height {
+		height: 100vh;
+	}
+}
+.my-ul-width {
+	width: 200px;
+	z-index: 1000;
+}
+@media screen and (min-width: 765px) {
+	.my-ul-width {
+		width: 100%;
+	}
+}
+.my-ul-position {
+	position: absolute;
+	top: 72px;
+	right: 0;
+}
+@media screen and (min-width: 765px) {
+	.my-ul-position {
+		position: static;
+	}
+}
+.my-font-color {
+	color: rgba(0, 0, 0, 0.45);
+}
+@media screen and (min-width: 765px) {
+	.side-padding {
+		margin-left: 350px;
+	}
+}
+.my-hover {
+	cursor: pointer;
+}
+.my-hover:hover {
+	/* box-shadow: 12px 12px 5px 0px rgba(0, 0, 0, 0.75); */
+	transform: scale(1.03);
+	transition: transform 0.5s;
+}
+.crypto-detail-color {
+	color: #551313;
+}
+@media screen and (min-width: 765px) {
+	.my-card-width {
+		max-width: 14rem;
+	}
+}
+@media screen and (min-width: 765px) {
+	.my-navbar-position {
+		position: fixed;
+	}
+}
+.main-color {
+	color: rgb(85, 19, 19);
+}
+.navbar-nav > .active > a {
+	color: black !important
+	;
+}
